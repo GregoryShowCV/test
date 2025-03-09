@@ -1051,7 +1051,7 @@ margin-bottom: 50px;*/
   background-color: rgba(80, 80, 80, 0.596);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  z-index: 1000;
+  z-index: 1;
   bottom: 100px;
   left: 100px; }
   .translate .translate-button {
