@@ -610,6 +610,8 @@ menu {
         background: rgba( 88, 88, 88, .8);
         border:none;
         color: white;
+        position: relative;
+        z-index: 10000000000000000000000000000000;
     }
     button:active
     {
