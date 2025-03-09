@@ -282,7 +282,8 @@ menu {
   left: 0px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  z-index: 10; }
   .back-button img {
     position: relative;
     transform: rotate(-90deg);
