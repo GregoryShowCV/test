@@ -43,7 +43,7 @@ button {
   height: 100vh;
   display: grid;
   place-items: center;
-  z-index: 10000; }
+  z-index: 1; }
 
 .load-page-frame-animation {
   animation: loadPageFrameAnimation  .2s ease-in-out forwards; }
