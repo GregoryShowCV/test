@@ -43,7 +43,7 @@ button {
   height: 100vh;
   display: grid;
   place-items: center;
-  z-index: 1; }
+  z-index: 10; }
 
 .load-page-frame-animation {
   animation: loadPageFrameAnimation  .2s ease-in-out forwards; }
@@ -53,6 +53,7 @@ button {
     opacity: 1; }
   100% {
     opacity: 0;
+    z-index: 0;
     display: none; } }
 .lds-grid p {
   position: absolute;
@@ -369,9 +370,7 @@ menu {
     border-radius: 3px;
     background: rgba(88, 88, 88, 0.8);
     border: none;
-    color: white;
-    position: relative;
-    z-index: 10; }
+    color: white; }
   .extra-knowledge-mobile-frame-img button:active {
     background: rgba(255, 255, 255, 0.8); }
   .extra-knowledge-mobile-frame-img button:hover {
@@ -902,7 +901,7 @@ margin-bottom: 50px;*/
     width: 42%;
     position: relative;
     transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
-    z-index: 10; }
+    z-index: 11; }
   .roadmap .explain-center-image-frame,
   .roadmap .explain-center-video-frame {
     box-shadow: 0px 5px 48px #bfacff75;
@@ -918,7 +917,7 @@ margin-bottom: 50px;*/
     width: 80%;
     left: 50%;
     box-shadow: 0px 0px 48px #bfacff75;
-    z-index: 1000; }
+    z-index: 10; }
   .roadmap .steps-hover-opacity:hover img,
   .roadmap .steps-hover-opacity:hover .explain-frame-opacity {
     opacity: 1; }
@@ -1053,7 +1052,7 @@ margin-bottom: 50px;*/
   background-color: rgba(80, 80, 80, 0.596);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  z-index: 1;
+  z-index: 10;
   bottom: 100px;
   left: 100px; }
   .translate .translate-button {
@@ -1065,7 +1064,7 @@ margin-bottom: 50px;*/
 
 #scroll-btn {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   bottom: 100px;
   right: 100px; }
   #scroll-btn #scroll-btn-sign {
