@@ -1063,7 +1063,7 @@ margin-bottom: 50px;*/
 
 #scroll-btn {
   position: fixed;
-  z-index: 10000;
+  z-index: 1;
   bottom: 100px;
   right: 100px; }
   #scroll-btn #scroll-btn-sign {
