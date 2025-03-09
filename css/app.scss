@@ -49,6 +49,7 @@ button {
 
     color: black;
     font-weight: 600;
+    z-index: 10;
 }
 
 button {
@@ -70,7 +71,7 @@ button {
     height: 100vh;
     display: grid;
     place-items: center;
-    z-index: 10;
+    z-index: 1000;
 
 }
 
