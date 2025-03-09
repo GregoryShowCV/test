@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unreal Engine 5</title>
+
+    
+<link href="../css/app.css" rel="stylesheet" />
+
+
+
+<link rel="icon" type="image/svg+xml" href="../img/svg/CVLogo.svg">
+<link href="../manifest.json" rel="manifest">
+
+<style>
+    .line-roadmap 
+    {
+        margin-top:80px ;
+    }
+    body
+    {
+
+         background: round; 
+        background-image: url("../desing/UnrealEngineRoadmap.svg    ");
+        background-size:  100%; 
+      background-repeat: no-repeat;
+      background-position:  top;
+    }
+
+    @media (max-width:1900px) {
+        body
+        {
+        background-image: none;
+
+        }
+        .line-roadmap-frame
+        {
+            display: flex ;
+          
+        }
+
+        .line-roadmap
+        {
+            background: #9e61bc !important;
+            width: 4px;
+        }
+
+
+        
+    }
+
+    @media (max-width:639px) {
+
+        h2
+        {
+            font-size: 14px;
+        }
+        }
+  
+</style>
+</head>
+<body class="position-relative overflow-hidden">
+
+
+    <div class="load-page-frame">
+        <div class="lds-grid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <p>Loading</p>
+        </div>
+      
+    </div>
+
+
+    <div class="translate">
+        <div class="translate-button translate-button-active" language="english">EN</div>
+        <div class="translate-button" language="spanish">ES</div> </div>
+    </div>
+
+    <div id="scroll-btn">
+        <div id="scroll-btn-sign">
+            ↑
+        </div>
+    </div>
+
+<section class="margin-top-4">
+
+    <img src="../img/UnrealEngineLogoWhite.webp" class="width-10 width-100px-m1023px margin-0-auto display-flex" class="display-grid" alt="">
+    <h1 class="title text-align-center padding-4 margin-2 ">Unreal Engine 5</h1>
+</section>
+
+<div class="back-button">
+    <img   src="../img/Arrow.webp" alt="">
+    <div class="back-button-text"><h4>Back</h4></div>
+    <a href="../#extra-knowledge"></a>
+</div>
+
+
+
+
+<section class="margin-top-5 " >
+        
+    <h2 class="text-align-center title">Demo.</h2>
+ 
+</section>
+
+
+
+<section class="roadmap margin-top-4">
+        
+    <div class="steps-frame display-grid ">
+        <div class="steps-bodoy ">
+            <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                <div class="explain-frame  text-align-center-m1279px word-spacing--2 ">
+                 </div>
+
+            </div>
+         
+            <div class="explain-image-frame margin-top-4">
+                <video  class="explain-center-image-frame" controls poster="../img/portfolio/UnrealEngine5/Demo.webp">
+                    <source src="../video/UnrealEngineDemo.webm" type="video/webm">
+                  </video>
+             
+            </div>
+        </div>
+        
+    </div>
+ 
+</section>
+
+
+<section class="margin-top-5 " >
+        
+    <h2 class="text-align-center title">Processes.</h2>
+ 
+</section>
+
+
+
+
+
+    <section class="roadmap margin-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div class="explain-frame  padding-left-20 padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> At the beginning of the level, a "BP_Door" is created, which contains a door frame, the door itself, a collision box, and a hand Widget. The Interact message is obtained through the Line Trace by Channel node combined with a "BPI_Interaction interface. When the player interacts for the first time, they gain access to the key.</h2>
+                     </div>
+
+                </div>
+             
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-left-image-frame" controls poster="../img/portfolio/UnrealEngine5/1.webp">
+                        <source src="../video/UnrealEnginePart1.webm" type="video/webm">
+                      </video>
+                 
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20  padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" "> <p>The first, second, and third doors are the same Blueprint. The variation between doors is achieved by creating a node in the Construction Script to set the Static Mesh, which is exposed as a public variable.</p> 
+                        
+                        <p class="margin-top-4">Similarly, the open and closed states are controlled using a public boolean. Different messages are handled through Line Trace by Channel, since "BP_Door" contains a reference to the player, allowing it to display a custom message from there.</p>
+                        </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-right-image-frame" controls poster="../img/portfolio/UnrealEngine5/2.webp">
+                        <source src="../video/UnrealEnginePart2.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div class="explain-frame  padding-left-20 padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> 
+                            
+                            <p>When the player sees the monster for the first time, it is triggered by a collision box located on the staircase, which activates a transition and a camera shake in the Level Blueprint.</p>
+
+                            <p class="margin-top-4">Both the flashlight and the key from the beginning of the level are children of the same "BP_Parent". Widgets associated with collectible objects use a Find Look At Rotation node, allowing the Widget to track the player.</p>
+
+                            <p class="margin-top-4">When the player obtains the flashlight, a Widget with animated elements appears, displaying a pre-rendered image of the flashlight asset, which was created in Blender. After this, the player can project light using a Spotlight attached to a Child Actor Component inside the player Blueprint.</p>
+                           </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-left-image-frame" controls >
+                        <source src="../video/UnrealEnginePart3.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=""> The wall levers can be moved whether there is electricity or not, but they become locked once the puzzle is solved. If the puzzle is already solved and the electricity is activated, the camera blend animation and the door sequence will be triggered.</h2>
+                     </div>
+
+                </div>
+               
+                <video  class="explain-right-image-frame margin-top-4" controls >
+                    <source src="../video/UnrealEnginePart4.webm" type="video/webm">
+                  </video>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px" >
+                    <div class="explain-frame  padding-left-20  padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" ">
+                            <p>
+                                When the electricity is activated for the electrical device on the wall, mannequins will appear along with their collision and head animations. When the player looks back, a camera shake will be triggered. Additionally, the TV screen material will change, and the light at the end of the basement will turn on.
+                            </p>
+                            </h2>
+                     </div>
+
+                </div>
+               
+                <video  class="explain-left-image-frame margin-top-4 " controls poster="../img/portfolio/UnrealEngine5/5.webp" >
+                    <source src="../video/UnrealEnginePart5.webm" type="video/webm">
+                  </video>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" ">
+                            When the basement key is obtained, an enemy will spawn and chase the player. The basement will be sealed by a portal, and the mannequins will have physics enabled, but gravity disabled, along with some objects placed to obstruct the player's path.
+                            </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-right-image-frame" controls poster="../img/portfolio/UnrealEngine5/6.webp" >
+                        <source src="../video/UnrealEnginePart6.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px" >
+                    <div class="explain-frame  padding-left-20  padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> 
+                            <p >
+                            The mechanic when activating the portal requires the player to point the flashlight at it to gradually shrink and eventually destroy it. To achieve this, a "BP_Portal" was created, which contains:
+                        </p>
+
+                            <ul class="margin-top-4 padding-4">
+                                <li>A plane with a custom material to simulate the portal effect.</li>
+                                <li>A collision box to detect whether the flashlight is on or off.</li>
+                                <li>A Line Trace by Channel, ensuring the player is looking directly at the portal, making the flashlight the central element of the interaction.</li>
+
+                            </ul>
+                            <p class="margin-top-4">
+                            Once the portal is destroyed, the player will gain access to the basement exit.
+                        </p>
+
+                        </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-left-image-frame" controls poster="../img/portfolio/UnrealEngine5/7.webp" >
+                        <source src="../video/UnrealEnginePart7.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" "> If the player escapes the NavMesh of the basement, the enemy will return to a specific point where it will be destroyed by the Level Blueprint. Additionally, the objects that had their gravity disabled will revert to being static.</h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-right-image-frame" controls poster="../img/portfolio/UnrealEngine5/8.webp" >
+                        <source src="../video/UnrealEnginePart8.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px" >
+                    <div class="explain-frame  padding-left-20  padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> 
+                                At the end of the demo, when the player obtains the key and interacts with the final door, an animation will be triggered. The enemy will spawn, activating the camera blend and executing the final attack animation, leaving the player immobile and sending them r to the main menu.
+                        </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-left-image-frame" controls poster="../img/portfolio/UnrealEngine5/9.webp" >
+                        <source src="../video/UnrealEnginePart9.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+    <section class="margin-top-5 " >
+        
+        <h2 class="text-align-center title">Extra notes.</h2>
+     
+    </section>
+
+
+    
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" "> The demo includes Level Streaming Volumes to activate and deactivate sections of the map, improving performance.</h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-right-image-frame" controls poster="../img/portfolio/UnrealEngine5/10.webp" >
+                        <source src="../video/UnrealEnginePart10.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px" >
+                    <div class="explain-frame  padding-left-20  padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> 
+                            Several parts of the map include Niagara systems to simulate dust and enhance the atmosphere of the level.
+                        </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-left-image-frame" controls  >
+                        <source src="../video/UnrealEnginePart11.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" "> In the basement, there is a cube with a localized fog material to enhance the suspenseful atmosphere.</h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <img src="../img/portfolio/UnrealEngine5/12.webp"  class=" explain-right-image-frame " alt="">
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px" >
+                    <div class="explain-frame  padding-left-20  padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> 
+                            <p>
+                            If the player is caught by the enemy in the basement, the final attack animation will be triggered. Depending on where the player is looking, they will turn around, and the enemy's spotlight will also rotate to simulate that the player turned with the flashlight.
+                        </p>
+                        <p class="margin-top-4">
+                            If the player has the flashlight but it is turned off, it will automatically turn on.
+                        </p>
+                        </h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-left-image-frame" controls  >
+                        <source src="../video/UnrealEnginePart13.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+    
+
+        
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" "> The game includes localization for Spanish.</h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-right-image-frame" controls  >
+                        <source src="../video/UnrealEnginePart14.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+            
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+
+
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px" >
+                    <div class="explain-frame  padding-left-20  padding-left-0-m1279px text-align-center-m1279px word-spacing--2 ">
+                        <h2 class=" "> 
+                            The game includes resolution settings, scalability options, FPS settings, and more. These settings are saved in a GameInstance and in a SaveGame.
+                        </h2>
+                     </div>
+
+                </div>
+               
+               
+                <div class="explain-image-frame margin-top-4">
+                    <img src="../img/portfolio/UnrealEngine5/15.webp"  class=" explain-left-image-frame " alt="">
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+
+        
+    <section class="roadmap margin-top-4 padding-top-4">
+        
+        <div class="steps-frame display-grid ">
+            <div class="steps-bodoy ">
+                <div class="explain-frame-column display-grid grid-template-columns-2 grid-template-columns-1-m1279px">
+                    <div></div>
+                    <div class="explain-frame  padding-right-20 padding-right-0-m1279px text-align-center-m1279px padding-left-4 word-spacing--2 ">
+                        <h2 class=" "> The game demo was presented in a PC build package.</h2>
+                     </div>
+
+                </div>
+               
+                <div class="explain-image-frame margin-top-4">
+                    <video  class="explain-right-image-frame" controls  >
+                        <source src="../video/UnrealEnginePart16.webm" type="video/webm">
+                      </video>
+                </div>
+            </div>
+            
+        </div>
+     
+    </section>
+
+            
+
+ 
+
+
+
+    
+    <section class="margin-top-5 " >
+        
+        <h2 class="text-align-center title">Thank you for reviewing my work.</h2>
+     
+    </section>
+
+    
+
+
+
+    <section class="line-roadmap-frame z-index--1 display-none justify-content-center width-100 height-100" >
+        <div class="line-roadmap   position-absolute top-0  vertical-liner-middle background-white opacity-50 position-absolute height-90 z-index--1 ">
+
+        </div>
+
+    </section>
+
+
+    <!-- <div>
+        <img src="../desing/BlerderRoadmapsvg.svg" class="position-absolute z-index--1 top-0 width-100 height-100" walt="">
+    </div> -->
+<!-- 
+    <object type="image/svg+xml" class="position-absolute z-index--1 top-0" data="../desing/BlerderRoadmapsvg.svg" width="100vw" height="100%"  ></object> -->
+
+
+    <footer>
+
+        <div class="horizontal-liner-title background-white opacity-20 margin-top-5"></div>
+
+        <div class="display-grid grid-template-columns-3 padding-4 ">
+            <div class="phone-number padding-left-1 padding-bottom-1 footer-cl">
+                <span class="font-weight-600 padding-left-1">Phone</span>
+                <div class="margin-1">
+                    +1(206)6705847
+                </div>
+            </div>
+            <div class="text-align-center font-weight-600 footer-cl">
+                </span> G.J <span class="today-years"></span>
+            </div>
+            <div class="make text-align-end padding-right-1 footer-cl">
+                Created by <span class="font-weight-600">Gregory Peña</span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<!-- <script src="../js/utils.js"></script> -->
+ <script>
+
+
+const body = document.querySelector('body');
+const loadPageFrame = document.querySelector('.load-page-frame');
+const translateButtons = document.querySelectorAll('.translate-button');
+const h2 = document.querySelectorAll('h2')
+const backButton = document.querySelectorAll('.back-button h4')
+
+const scrollBtn=  document.getElementById('scroll-btn-sign');
+
+window.scrollTo(0, window.scrollY - 1);
+    
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 1) {
+        scrollBtn.style.opacity = '1';
+        scrollBtn.style.visibility = 'visible';
+        scrollBtn.style.display = 'flex';
+        scrollBtn.style.transition = 'opacity 0.3s';
+    } else {
+        scrollBtn.style.display = 'none';
+    }
+});
+
+scrollBtn.addEventListener('click', function() {
+    document.querySelector('html').scrollTo({ top: 0, behavior: 'smooth' });
+    document.querySelector('body').scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+window.onload = function()
+{
+    body.classList.remove('overflow-hidden')
+    body.classList.add('overflow-auto')
+    loadPageFrame.classList.add('load-page-frame-animation')
+
+}
+
+
+
+const FooterCl= document.querySelectorAll('.footer-cl')
+
+var currentDate = new Date()
+
+const todayYears = document.querySelectorAll('.today-years')
+
+todayYears.forEach(function(element){
+    element.textContent =currentDate.getFullYear();
+})
+
+
+
+translateButtons.forEach((translateButton) => {
+    
+
+    const attr = translateButton.getAttribute('language');
+
+
+    
+    let lastHoveredElement = document.querySelector('.translate-button-active');
+    translateButton.addEventListener('click', () =>{
+         
+        if(attr != null)
+        {
+            StateLanguage = attr
+        }
+       
+        translateButtons.forEach((btn) => {
+            btn.classList.remove('translate-button-active');
+        });
+
+        
+
+        translateButton.classList.add('translate-button-active');
+        lastHoveredElement = translateButton;
+
+        backButton[0].textContent =  data[attr].backButton;
+        h2[1].textContent = data[attr].h2b;
+        h2[2].textContent = data[attr].h2c;
+        h2[3].innerHTML = data[attr].h2d;
+        h2[4].innerHTML = data[attr].h2e;
+        h2[5].textContent = data[attr].h2f;
+        h2[6].textContent = data[attr].h2h;
+        h2[7].textContent = data[attr].h2i;
+        h2[8].innerHTML = data[attr].h2j;
+        h2[9].textContent = data[attr].h2k;
+        h2[10].textContent = data[attr].h2l;
+        h2[11].textContent = data[attr].h2m;
+        h2[12].textContent = data[attr].h2n;
+        h2[13].textContent = data[attr].h2o;
+        h2[14].textContent = data[attr].h2p;
+        h2[15].innerHTML = data[attr].h2q;
+        h2[16].innerHTML = data[attr].h2r;
+        h2[17].innerHTML = data[attr].h2t;
+        h2[18].innerHTML = data[attr].h2u;
+        h2[19].innerHTML = data[attr].h2v;
+
+
+
+
+
+
+
+
+
+
+
+
+        FooterCl[0].innerHTML =  data[attr].FooterCl0
+        FooterCl[2].innerHTML =  data[attr].FooterCl2
+
+
+            
+    });
+});
+
+
+
+var data =
+  {
+
+    spanish:
+        {
+    backButton: `Volver`,
+    h2b: `Procesos.`,
+    h2c: `Al comienzo del nivel, se crea un "BP_Door", que contiene un marco de puerta, la puerta en sí, una caja de colisión y un Widget de la mano. El mensaje de Interactuar se obtiene a través del nodo Line Trace by Channel combinado con la interfaz "BPI_Interaction". Cuando el jugador interactúa por primera vez, obtiene acceso a la llave.`,
+    h2d: `<p>La primera, segunda y tercera puerta son el mismo Blueprint. La variación entre ellas se logra creando un nodo en el Construction Script para configurar el Static Mesh, el cual está expuesto como una variable pública.</p> 
+                        
+    <p class="margin-top-4">De manera similar, los estados de abierto y cerrado se controlan mediante un booleano público. Los mensajes diferentes se gestionan a través de Line Trace by Channel, ya que BP_Door contiene una referencia al jugador, lo que permite mostrar un mensaje personalizado desde allí.</p>`,
+    h2e:`
+    <p>Cuando el jugador ve al monstruo por primera vez, se activa mediante una caja de colisión ubicada en la escalera, la cual desencadena una transición y un efecto de cámara shake en el Level Blueprint.</p> 
+
+    <p class="margin-top-4">Tanto la linterna como la llave del inicio del nivel son hijos del mismo "BP_Parent". Los Widgets asociados a los objetos coleccionables utilizan un nodo Find Look At Rotation, lo que permite que el Widget siga al jugador.</p>
+
+    <p class="margin-top-4">Cuando el jugador obtiene la linterna, aparece un Widget con elementos animados, mostrando una imagen prerenderizada del modelo de la linterna, el cual fue creado en Blender. Después de esto, el jugador puede proyectar luz utilizando un Spotlight con un Child Actor Component dentro del Blueprint del jugador.</p>`,
+    h2f:`Las palancas de la pared se pueden mover haya o no electricidad, pero quedan bloqueados una vez que el puzzle está resuelto. Si el puzzle ya está resuelto y la electricidad se activa, se ejecutará la animación de camera blend y la secuencia de la puerta.`,
+    h2h:`Cuando se activa la electricidad del dispositivo eléctrico en la pared, aparecerán maniquíes junto con su colisión y animaciones en la cabeza. Cuando el jugador mire hacia atrás, se activará un camera shake. Además, el material de la pantalla del televisor cambiará y la luz al final del basement se encenderá.`,
+    h2i:`Cuando se obtiene la llave del sótano, un enemigo se spawneará y comenzará a perseguir al jugador. El sótano será sellado por un portal, y los maniquíes tendrán las físicas activadas, pero con la gravedad desactivada, junto con algunos objetos colocados para obstaculizar el paso del jugador`,
+    h2j:`<p>
+            La mecánica al activar el portal requiere que el jugador apunte la linterna hacia él para reducirlo gradualmente hasta finalmente destruirlo. Para lograr esto, se creó un "BP_Portal", que contiene:
+        </p>
+
+        <ul class="margin-top-4 padding-4">
+            <li>Un plano con un material personalizado para simular el efecto del portal.</li>
+            <li>Una caja de colisión para detectar si la linterna está encendida o apagada.</li>
+             <li>Un Line Trace by Channel, asegurando que el jugador esté mirando directamente al portal, haciendo  la linterna el elemento central de la interacción.</li>
+        </ul>
+
+        <p class="margin-top-4">
+            Una vez que el portal es destruido, el jugador tendrá acceso a la salida del sótano.
+        </p>`,
+    h2k:`Si el jugador escapa del NavMesh del sótano, el enemigo regresará a un punto específico donde será destruido por el Level Blueprint. Además, los objetos que tenían la gravedad desactivada volverán a ser estáticos.`,
+    h2l:`Al finalizar la demo, cuando el jugador obtenga la llave e interactúe con la puerta final, se activará una animación. El enemigo se spawneará, activando la camera blend y ejecutando la animación de ataque final, dejando al jugador inmóvil y enviándolo al menú principal.`,
+    h2m:`Notas adicionales.`,
+    h2n:`La demo incluye Level Streaming Volumes para activar y desactivar secciones del mapa, mejorando el rendimiento.`,
+    h2o:`Varias partes del mapa incluyen sistemas de Niagara para simular polvo y mejorar la atmósfera del nivel.`,
+    h2p:`En el sótano, hay un cubo con un material de niebla localizada para mejorar la atmósfera de suspenso.`,
+    h2q:`<p>
+            Si el jugador es atrapado por el enemigo en el basement, se activará la animación de ataque final. Dependiendo de dónde esté mirando el jugador, este se dará la vuelta, y el spotlight del enemigo también girará para simular que el jugador se volteó con la linterna.
+        </p>
+        <p class="margin-top-4">
+            Si el jugador tiene la linterna pero está apagada, esta se encenderá automáticamente.
+        </p>
+        `,
+    h2r:`El juego incluye localización para español.`,
+    h2t:`El juego incluye configuraciones de resolución, opciones de escalabilidad, configuraciones de FPS, y más. Estas configuraciones se guardan en un GameInstance y en un SaveGame.`,
+    h2u:`La demostración del juego fue presentada en un empaquetado de PC.`,
+    h2v:`Gracias por revisar mi trabajo.`,
+
+
+
+
+
+    FooterCl0:
+        `
+        <span class="font-weight-600 padding-left-1">Teléfono</span>
+                <div class="margin-1">
+                    +1(206)6705847
+                </div>`
+        ,
+        FooterCl2:`Creado por <span class="font-weight-600">Gregory Peña</span>`,
+ 
+
+    },
+    
+    english:
+    {   
+        backButton: `Back`,
+        h2b:`Processes.`,
+        h2c:`At the beginning of the level, a "BP_Door" is created, which contains a door frame, the door itself, a collision box, and a hand Widget. The Interact message is obtained through the Line Trace by Channel node combined with a "BPI_Interaction interface. When the player interacts for the first time, they gain access to the key.`,
+        h2d:`<p>The first, second, and third doors are the same Blueprint. The variation between doors is achieved by creating a node in the Construction Script to set the Static Mesh, which is exposed as a public variable.</p> 
+                        
+        <p class="margin-top-4">Similarly, the open and closed states are controlled using a public boolean. Different messages are handled through Line Trace by Channel, since "BP_Door" contains a reference to the player, allowing it to display a custom message from there.</p>`,
+        h2e:` <p>When the player sees the monster for the first time, it is triggered by a collision box located on the staircase, which activates a transition and a camera shake in the Level Blueprint.</p>
+
+        <p class="margin-top-4">Both the flashlight and the key from the beginning of the level are children of the same "BP_Parent". Widgets associated with collectible objects use a Find Look At Rotation node, allowing the Widget to track the player.</p>
+
+        <p class="margin-top-4">When the player obtains the flashlight, a Widget with animated elements appears, displaying a pre-rendered image of the flashlight asset, which was created in Blender. After this, the player can project light using a Spotlight attached to a Child Actor Component inside the player Blueprint.</p>`,
+        h2f:`The wall levers can be moved whether there is electricity or not, but they become locked once the puzzle is solved. If the puzzle is already solved and the electricity is activated, the camera blend animation and the door sequence will be triggered.`,
+        h2h:`When the electricity is activated for the electrical device on the wall, mannequins will appear along with their collision and head animations. When the player looks back, a camera shake will be triggered. Additionally, the TV screen material will change, and the light at the end of the basement will turn on.`,
+        h2i:` When the basement key is obtained, an enemy will spawn and chase the player. The basement will be sealed by a portal, and the mannequins will have physics enabled, but gravity disabled, along with some objects placed to obstruct the player's path.`,
+        h2j:`<p >
+            The mechanic when activating the portal requires the player to point the flashlight at it to gradually shrink and eventually destroy it. To achieve this, a "BP_Portal" was created, which contains:
+            </p>
+
+            <ul class="margin-top-4 padding-4">
+                <li>A plane with a custom material to simulate the portal effect.</li>
+                <li>A collision box to detect whether the flashlight is on or off.</li>
+                <li>A Line Trace by Channel, ensuring the player is looking directly at the portal, making the flashlight the central element of the interaction.</li>
+
+            </ul>
+            <p class="margin-top-4">
+                Once the portal is destroyed, the player will gain access to the basement exit.
+            </p>`,
+        h2k:`If the player escapes the NavMesh of the basement, the enemy will return to a specific point where it will be destroyed by the Level Blueprint. Additionally, the objects that had their gravity disabled will revert to being static.`,
+        h2l:`At the end of the demo, when the player obtains the key and interacts with the final door, an animation will be triggered. The enemy will spawn, activating the camera blend and executing the final attack animation, leaving the player immobile and sending them r to the main menu.`,
+        h2m:`Extra notes.`,
+        h2n:`The demo includes  Level Streaming Volumes to activate and deactivate sections of the map, improving performance.`,
+        h2o:`Several parts of the map include Niagara systems to simulate dust and enhance the atmosphere of the level.`,
+        h2p:`In the basement, there is a cube with a localized fog material to enhance the suspenseful atmosphere.`,
+    h2q:` <p>
+            If the player is caught by the enemy in the basement, the final attack animation will be triggered. Depending on where the player is looking, they will turn around, and the enemy's spotlight will also rotate to simulate that the player turned with the flashlight.
+            </p>
+            <p class="margin-top-4">
+                If the player has the flashlight but it is turned off, it will automatically turn on.
+            </p>`,
+    h2r:`The game includes localization for Spanish.`,
+    h2t:`The game includes resolution settings, scalability options, FPS settings, and more. These settings are saved in a GameInstance and in a SaveGame.`,
+    h2u:`The game demo was presented in a PC build package.`,
+    h2v:`Thank you for reviewing my work.`,
+
+
+
+
+
+    FooterCl0:
+        `
+        <span class="font-weight-600 padding-left-1">Phone</span>
+                <div class="margin-1">
+                    +1(206)6705847
+                </div>`
+        ,
+        FooterCl2:`Created by <span class="font-weight-600">Gregory Peña</span>`,
+    },
+   
+}
+
+ </script>
+
+</html>
+
+
+    
