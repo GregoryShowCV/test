@@ -902,7 +902,7 @@ margin-bottom: 50px;*/
     width: 42%;
     position: relative;
     transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
-    z-index: 11; }
+    z-index: 10; }
   .roadmap .explain-center-image-frame,
   .roadmap .explain-center-video-frame {
     box-shadow: 0px 5px 48px #bfacff75;
@@ -1053,7 +1053,7 @@ margin-bottom: 50px;*/
   background-color: rgba(80, 80, 80, 0.596);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  z-index: 10;
+  z-index: 12;
   bottom: 100px;
   left: 100px; }
   .translate .translate-button {
@@ -1065,7 +1065,7 @@ margin-bottom: 50px;*/
 
 #scroll-btn {
   position: fixed;
-  z-index: 10;
+  z-index: 12;
   bottom: 100px;
   right: 100px; }
   #scroll-btn #scroll-btn-sign {
