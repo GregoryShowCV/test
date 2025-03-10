@@ -902,7 +902,7 @@ margin-bottom: 50px;*/
     width: 42%;
     position: relative;
     transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
-    z-index: 20; }
+    z-index: 10; }
   .roadmap .explain-center-image-frame,
   .roadmap .explain-center-video-frame {
     box-shadow: 0px 5px 48px #bfacff75;
@@ -918,7 +918,7 @@ margin-bottom: 50px;*/
     width: 80%;
     left: 50%;
     box-shadow: 0px 0px 48px #bfacff75;
-    z-index: 10; }
+    z-index: 20; }
   .roadmap .steps-hover-opacity:hover img,
   .roadmap .steps-hover-opacity:hover .explain-frame-opacity {
     opacity: 1; }

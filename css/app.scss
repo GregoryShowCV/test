@@ -1462,7 +1462,7 @@ background-image: url(../img/indexVideo/DavinciResolve.webp);
         width: 42%;
         position: relative;
         transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
-        z-index: 20;
+        z-index: 10;
     }
 
     .explain-center-image-frame,
@@ -1488,7 +1488,7 @@ background-image: url(../img/indexVideo/DavinciResolve.webp);
         width: 80%;
         left: 50%;
         box-shadow: 0px 0px 48px #bfacff75;
-        z-index: 10;
+        z-index: 20;
     }
 
 
